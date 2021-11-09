@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #dedede;
+    color: #000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+
+/* ---------banner section---------*/
+#banner{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    padding: 0 100px;
+}
+
+.navbar-brand{
+    font-size: 28px;
+    font-weight: 600;
+}
+.navbar-nav{
+    font-size: 18px;
+    font-weight: 500;
+}
+.navbar-collapse{
+    position: relative;
+}
+.navbar-collapse .navbar-nav{
+    position: absolute;
+    right: 0;
+}
+.navbar-nav .nav-item{
+    padding: 0px 10px;
+}
+
+h4{
+    font-size: 22px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+h1{
+    font-size: 32px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+.my-social-links{
+    margin-top: 30px;
+}
+.my-social-links a{
+    margin: 0px 5px;
+}
+.my-social-links .fab{
+    font-size: 28px;
+    color: #dedede;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 8px;
+    border-radius: 50%;
+}
+.my-social-links .fab:hover{
+    color: #375fb6;
+    background-color: transparent;
+}
+.navbar-toggler{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+/* ---------about section---------*/
+#about, #resume, #contact{
+    padding: 70px 100px;
+}
+.section-heading{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}
+.about-me-content, .my-resume, .contact-me{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.my-about-info{
+    padding-bottom: 20px;
+}
+.my-info{
+    padding-top: 10px;
+}
+.highlight{
+    font-size: 18px;
+    font-weight: 600;
+}
+.about-me-content .my-image{
+    max-width: 350px;
+    max-height: 420px;
+    border: 2px solid #80727283;
+    margin-left: 40px;
+}
+.about-me-content .my-image img{
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width:600px){
+
+    #about, #resume, #contact{
+        padding: 50px 20px;
+    }
+    .navbar.toggle{
+        width: 100%;
+        height: 250px;
+        padding: 0 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    .about-me-content .my-image{
+        margin-left: 0px;
+    }
+    h4{
+        font-size: 20px;
+    }
+    h1{
+        font-size: 24px;
+    }
+}
+
+
+/*------- resume section -------------*/
+
+.all-skills, .education-info{
+    padding: 0px 15px;
+    padding-top: 35px;
+}
+.all-skills .label{
+    margin-bottom: 5px;
+}
+.progress{
+    margin-bottom: 20px;
+}
+.institute{
+    padding-bottom: 10px;
+}
+h6{
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 8px;
+}
+.institute .pass-year{
+    color: #6d6a6a;
+}
+.institute p{
+    margin-top: 8px;
+    font-size: 16px;
+}
+
+
+/*------ contact-section ------------*/
+#contact .section-title{
+    padding-bottom: 30px;
+}
+.get-in-touch{
+    padding: 20px 10px;
+    margin-right: -20px;
+    border: 1px solid #6d6a6a;
+}
+
+.contact-form{
+    padding: 30px;
+}
+footer{
+    padding: 10px;
+}
